@@ -1211,10 +1211,13 @@ code {
   .hero-sub { margin-inline: auto; }
 
   .work-grid { grid-template-columns: repeat(2, 1fr); }
-  .services-grid { grid-template-columns: repeat(2, 1fr); }
-  .pricing-grid { grid-template-columns: repeat(2, 1fr); }
   .why-grid { grid-template-columns: repeat(2, 1fr); }
-  .testimonial-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* These grids hold 3 items, which orphans a lone card in a 2-column
+     layout — go straight to a single column instead of 3 -> 2 -> 1. */
+  .services-grid { grid-template-columns: 1fr; max-width: 480px; margin-inline: auto; }
+  .pricing-grid { grid-template-columns: 1fr; max-width: 480px; margin-inline: auto; }
+  .testimonial-grid { grid-template-columns: 1fr; max-width: 480px; margin-inline: auto; }
 
   .about-grid { grid-template-columns: 1fr; }
   .about-photo { max-width: 320px; margin-inline: auto; }
@@ -1236,10 +1239,7 @@ code {
   .hero { padding: 150px 0 80px; }
 
   .work-grid { grid-template-columns: 1fr; }
-  .services-grid { grid-template-columns: 1fr; }
-  .pricing-grid { grid-template-columns: 1fr; }
   .why-grid { grid-template-columns: 1fr; }
-  .testimonial-grid { grid-template-columns: 1fr; }
 
   .form-row { grid-template-columns: 1fr; }
   .contact-form { padding: 28px 22px; }
