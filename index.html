@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matt Studio — Short-Form Video Editor</title>
+  <meta name="description" content="Matt Studio is a short-form video editor creating engaging TikToks, Instagram Reels and YouTube Shorts for creators, personal brands and businesses." />
+  <meta name="theme-color" content="#121210" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Matt Studio — Short-Form Video Editor" />
+  <meta property="og:description" content="I turn raw footage into content people want to watch. Short-form editing for TikTok, Instagram Reels and YouTube Shorts." />
+  <meta property="og:image" content="assets/images/og-cover.jpg" />
+
+  <!-- Favicon: abstract signal mark, inline so no external asset is required -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23121210'/%3E%3Cg stroke='%237BE04D' stroke-width='4' stroke-linecap='round'%3E%3Cline x1='32' y1='32' x2='32' y2='10'/%3E%3Cline x1='32' y1='32' x2='50' y2='18'/%3E%3Cline x1='32' y1='32' x2='54' y2='32'/%3E%3Cline x1='32' y1='32' x2='50' y2='46'/%3E%3Cline x1='32' y1='32' x2='32' y2='54'/%3E%3Cline x1='32' y1='32' x2='14' y2='46'/%3E%3Cline x1='32' y1='32' x2='10' y2='32'/%3E%3Cline x1='32' y1='32' x2='14' y2='18'/%3E%3C/g%3E%3Ccircle cx='32' cy='32' r='7' fill='%237BE04D'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Skip link for keyboard / screen reader users -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar" aria-label="Primary">
+      <a href="#top" class="logo" aria-label="Matt Studio — home">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="28" height="28">
+            <g stroke="currentColor" stroke-width="5" stroke-linecap="round">
+              <line x1="32" y1="32" x2="32" y2="10"/>
+              <line x1="32" y1="32" x2="50" y2="18"/>
+              <line x1="32" y1="32" x2="54" y2="32"/>
+              <line x1="32" y1="32" x2="50" y2="46"/>
+              <line x1="32" y1="32" x2="32" y2="54"/>
+              <line x1="32" y1="32" x2="14" y2="46"/>
+              <line x1="32" y1="32" x2="10" y2="32"/>
+              <line x1="32" y1="32" x2="14" y2="18"/>
+            </g>
+            <circle cx="32" cy="32" r="6.5" fill="currentColor" stroke="none"/>
+          </svg>
+        </span>
+        <span class="logo-text">MATT<span class="logo-dot">·</span>STUDIO</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn-primary btn-sm nav-cta">Let's Talk</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-inner">
+        <ul>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-block">Let's Talk</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-glow"></div>
+        <div class="hero-grid"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Short-Form Video Editor</p>
+          <h1 class="hero-title reveal">
+            I turn raw footage<br />
+            into content people<br />
+            want to <span class="text-accent">watch.</span>
+          </h1>
+          <p class="hero-sub reveal">
+            I create engaging short-form videos for TikTok, Instagram Reels and YouTube Shorts —
+            helping creators turn their ideas into content that stands out.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a href="#work" class="btn btn-primary">
+              View My Work <span class="arrow" aria-hidden="true">→</span>
+            </a>
+            <a href="#contact" class="btn btn-ghost">Let's Work Together</a>
+          </div>
+
+          <p class="hero-proof reveal">
+            <span>TikTok</span>
+            <span class="dot" aria-hidden="true">•</span>
+            <span>Instagram Reels</span>
+            <span class="dot" aria-hidden="true">•</span>
+            <span>YouTube Shorts</span>
+          </p>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="player-card floating">
+            <div class="player-frame">
+              <div class="player-noise"></div>
+              <span class="player-label">VIDEO PREVIEW</span>
+              <button class="player-play" type="button" tabindex="-1" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+              </button>
+              <span class="player-ratio">9:16</span>
+            </div>
+            <div class="player-bar">
+              <button class="player-play-sm" type="button" tabindex="-1" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="12" height="12"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+              </button>
+              <div class="player-timeline">
+                <div class="player-progress"></div>
+              </div>
+              <span class="player-time">00:12 / 00:32</span>
+            </div>
+          </div>
+
+          <div class="float-card float-card-1">
+            <span class="dot-live" aria-hidden="true"></span> Captions ON
+          </div>
+          <div class="float-card float-card-2">
+            <svg viewBox="0 0 24 24" width="14" height="14"><path d="M4 12l4-4v3h5V8l4 4-4 4v-3H8v3z" fill="currentColor"/></svg>
+            Auto-cut
+          </div>
+          <div class="float-card float-card-3 waveform" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SELECTED WORK ============ -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2 class="section-title">A selection of edits built for attention</h2>
+          <p class="section-sub">A selection of short-form edits designed for attention, retention and storytelling.</p>
+        </div>
+
+        <div class="work-grid" id="workGrid">
+          <!-- Populated by script.js from CONFIG.portfolio -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VIDEO MODAL ============ -->
+    <div class="modal" id="videoModal" role="dialog" aria-modal="true" aria-label="Project preview" hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose" aria-label="Close preview">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <div class="modal-player">
+          <video id="modalVideo" controls playsinline></video>
+          <div class="modal-placeholder" id="modalPlaceholder">
+            <svg viewBox="0 0 24 24" width="34" height="34"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+            <p>Preview coming soon</p>
+            <span id="modalPlaceholderTitle"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ BEFORE / AFTER ============ -->
+    <section class="section section-alt" id="raw-to-ready">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">From Raw to Ready</p>
+          <h2 class="section-title">Good editing isn't just about cutting clips</h2>
+          <p class="section-sub">It's about turning raw footage into content that keeps people watching.</p>
+        </div>
+
+        <div class="compare reveal" id="compare">
+          <div class="compare-pane compare-before">
+            <span class="compare-tag">Raw Footage</span>
+          </div>
+          <div class="compare-pane compare-after" id="compareAfter">
+            <span class="compare-tag">Final Edit</span>
+          </div>
+          <div class="compare-handle" id="compareHandle" role="slider" tabindex="0"
+               aria-label="Drag to compare raw footage and final edit"
+               aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+            <span class="compare-grip">
+              <svg viewBox="0 0 24 24" width="16" height="16"><path d="M8 6l-5 6 5 6M16 6l5 6-5 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">What I Do</p>
+          <h2 class="section-title">Editing built for short-form platforms</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span class="service-index">01</span>
+            <h3>Short-Form Editing</h3>
+            <p>Engaging edits optimized for TikTok, Instagram Reels and YouTube Shorts.</p>
+            <ul>
+              <li>Dynamic cuts</li>
+              <li>Captions</li>
+              <li>Pacing</li>
+              <li>Sound design</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-index">02</span>
+            <h3>Captions &amp; Motion</h3>
+            <p>Dynamic subtitles and visual elements designed to make your content more engaging.</p>
+            <ul>
+              <li>Animated captions</li>
+              <li>Motion graphics</li>
+              <li>Zooms</li>
+              <li>Visual emphasis</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-index">03</span>
+            <h3>Content Repurposing</h3>
+            <p>Turn long-form videos, podcasts and streams into multiple short-form pieces.</p>
+            <ul>
+              <li>Clip selection</li>
+              <li>Hook optimization</li>
+              <li>B-roll</li>
+              <li>Platform formatting</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section section-alt" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">How It Works</p>
+          <h2 class="section-title">A simple, transparent process</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline-step reveal">
+            <span class="timeline-index">01</span>
+            <h3>Send</h3>
+            <p>You send your raw footage and references.</p>
+          </li>
+          <li class="timeline-step reveal">
+            <span class="timeline-index">02</span>
+            <h3>Edit</h3>
+            <p>I turn the footage into engaging short-form content.</p>
+          </li>
+          <li class="timeline-step reveal">
+            <span class="timeline-index">03</span>
+            <h3>Review</h3>
+            <p>You review the edit and request changes if needed.</p>
+          </li>
+          <li class="timeline-step reveal">
+            <span class="timeline-index">04</span>
+            <h3>Publish</h3>
+            <p>Your finished video is ready for TikTok, Reels or Shorts.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PACKAGES ============ -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Packages</p>
+          <h2 class="section-title">Simple, flexible packages</h2>
+          <p class="section-sub">Prototype pricing — easy to edit in <code>js/script.js</code>.</p>
+        </div>
+
+        <div class="pricing-grid" id="pricingGrid">
+          <!-- Populated by script.js from CONFIG.pricing -->
+        </div>
+
+        <p class="pricing-note reveal">
+          Need something different? <br />
+          Custom packages are available — <a href="#contact">let's talk</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section-alt" id="about">
+      <div class="container about-grid">
+        <div class="about-photo reveal" aria-hidden="true">
+          <div class="photo-placeholder">
+            <span>YOUR PHOTO</span>
+          </div>
+        </div>
+
+        <div class="about-copy reveal">
+          <p class="eyebrow">The Editor Behind the Cuts</p>
+          <h2 class="section-title">Hi, I'm Matt</h2>
+          <p>I'm Matt, a short-form video editor focused on creating engaging, fast-paced content for creators and personal brands.</p>
+          <p>I specialize in turning raw footage and long-form content into Shorts, Reels and TikToks that feel native to each platform.</p>
+          <p>My goal is simple: make your content easier to consume, more engaging and ready to publish.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY WORK WITH ME ============ -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Why Work With Me</p>
+          <h2 class="section-title">Editing that respects your content</h2>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card reveal">
+            <span class="why-index">01</span>
+            <h3>Attention to Detail</h3>
+            <p>Every cut, caption and sound effect has a purpose.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-index">02</span>
+            <h3>Content-First Editing</h3>
+            <p>The edit supports the message instead of distracting from it.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-index">03</span>
+            <h3>Fast Communication</h3>
+            <p>Clear communication and organized workflow.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-index">04</span>
+            <h3>Built for Short-Form</h3>
+            <p>Edits designed specifically for TikTok, Reels and Shorts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section section-alt" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Testimonials</p>
+          <h2 class="section-title">What clients say</h2>
+          <p class="section-sub">Placeholder quotes — ready to be replaced with real client feedback.</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <figure class="testimonial-card reveal">
+            <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+            <blockquote>Add your first client testimonial here.</blockquote>
+            <figcaption>
+              <strong>CLIENT NAME</strong>
+              <span>Creator / Business</span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card reveal">
+            <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+            <blockquote>Add your second client testimonial here.</blockquote>
+            <figcaption>
+              <strong>CLIENT NAME</strong>
+              <span>Creator / Business</span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card reveal">
+            <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+            <blockquote>Add your third client testimonial here.</blockquote>
+            <figcaption>
+              <strong>CLIENT NAME</strong>
+              <span>Creator / Business</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT / FINAL CTA ============ -->
+    <section class="section cta-section" id="contact">
+      <div class="container">
+        <div class="cta-head reveal">
+          <h2 class="cta-title">Ready to turn your content<br />into something better?</h2>
+          <p class="cta-sub">Have footage that needs to become short-form content?<br />Let's talk.</p>
+          <div class="cta-actions">
+            <a href="#contactForm" class="btn btn-primary">Start a Project</a>
+            <a href="https://instagram.com/" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" id="ctaInstagram">View Instagram</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="fName">Name</label>
+              <input type="text" id="fName" name="name" autocomplete="name" required />
+              <span class="form-error" id="err-fName"></span>
+            </div>
+            <div class="form-field">
+              <label for="fEmail">Email</label>
+              <input type="email" id="fEmail" name="email" autocomplete="email" required />
+              <span class="form-error" id="err-fEmail"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="fCompany">Company / Brand</label>
+              <input type="text" id="fCompany" name="company" autocomplete="organization" />
+            </div>
+            <div class="form-field">
+              <label for="fNeed">What do you need?</label>
+              <select id="fNeed" name="need" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="short-form-editing">Short-Form Editing</option>
+                <option value="captions-motion">Captions &amp; Motion</option>
+                <option value="content-repurposing">Content Repurposing</option>
+                <option value="custom-package">Custom Package</option>
+                <option value="other">Something Else</option>
+              </select>
+              <span class="form-error" id="err-fNeed"></span>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="fMessage">Message</label>
+            <textarea id="fMessage" name="message" rows="5" required></textarea>
+            <span class="form-error" id="err-fMessage"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Send Project Inquiry</button>
+
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="logo-text">MATT<span class="logo-dot">·</span>STUDIO</span>
+        <p>Short-Form Video Editor</p>
+        <p class="footer-platforms">TikTok • Reels • YouTube Shorts</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Social">
+        <a href="https://instagram.com/" id="footerInstagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://tiktok.com/" id="footerTiktok" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a href="https://youtube.com/" id="footerYoutube" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="mailto:hello@example.com" id="footerEmail">Email</a>
+      </nav>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="footerYear">2026</span> Matt Studio. All rights reserved.</p>
+        <a href="#top" class="back-to-top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
